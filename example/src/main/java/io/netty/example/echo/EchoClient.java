@@ -42,7 +42,8 @@ public final class EchoClient {
     static final int SIZE = Integer.parseInt(System.getProperty("size", "256"));
 
     public static void main(String[] args) throws Exception {
-        // Configure SSL.git
+        // Configure SSL.
+        //update at 20190223 for test
         final SslContext sslCtx;
         if (SSL) {
             sslCtx = SslContextBuilder.forClient()
